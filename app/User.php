@@ -9,6 +9,9 @@ class User extends Authenticatable
 {
     use Notifiable;
 
+    private $teste;
+    private $outroTeste;
+
     /**
      * The attributes that are mass assignable.
      *
